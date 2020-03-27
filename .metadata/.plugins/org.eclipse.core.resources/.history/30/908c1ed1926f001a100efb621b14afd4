@@ -1,0 +1,14 @@
+package com.example.project.view;
+
+import javax.enterprise.context.RequestScoped;
+import javax.inject.Named;
+
+@Named
+@RequestScoped
+public class HelloWord {
+
+	public HelloWord() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
